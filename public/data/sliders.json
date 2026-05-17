@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "gambar_url": "/images/sliders/01-fresh-produce.svg",
+    "gambar_url": "/images/sliders/01-fresh-produce.jpg",
     "judul": "Fresh Daily Groceries",
     "deskripsi": "Free shipping on orders over $50",
     "tipe_link": "category",
@@ -11,7 +11,7 @@
   },
   {
     "id": "2",
-    "gambar_url": "/images/sliders/02-halal-meat.svg",
+    "gambar_url": "/images/sliders/02-halal-meat.jpg",
     "judul": "Halal Meat Special",
     "deskripsi": "100% certified halal — fresh chicken, beef & lamb",
     "tipe_link": "category",
@@ -21,7 +21,7 @@
   },
   {
     "id": "3",
-    "gambar_url": "/images/sliders/03-spices.svg",
+    "gambar_url": "/images/sliders/03-spices.jpg",
     "judul": "Premium Spices & Herbs",
     "deskripsi": "Authentic spices from around the world",
     "tipe_link": "category",
