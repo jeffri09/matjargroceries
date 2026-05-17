@@ -46,7 +46,7 @@ export default function HistoryPage() {
                     </span>
                     <h2 className={styles.emptyTitle}>Belum Ada Orders</h2>
                     <p className={styles.emptyDesc}>
-                        Riwayat ordersmu akan muncul di sini setelah kamu checkout.
+                        Riwayat your orders akan muncul di sini setelah kamu checkout.
                     </p>
                     <div className={styles.emptyActions}>
                         <Link href="/" className={styles.btnPrimary}>

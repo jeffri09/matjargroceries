@@ -114,14 +114,14 @@ export default function PromoSlider({ slides }: PromoSliderProps) {
                     <button
                         className={`${styles.arrow} ${styles.arrowLeft}`}
                         onClick={() => { goTo(current - 1); resetTimer(); }}
-                        aria-label="Slide sebelumnya"
+                        aria-label="Previous slide"
                     >
                         <span className="material-symbols-outlined">chevron_left</span>
                     </button>
                     <button
                         className={`${styles.arrow} ${styles.arrowRight}`}
                         onClick={() => { goTo(current + 1); resetTimer(); }}
-                        aria-label="Slide berikutnya"
+                        aria-label="Next slide"
                     >
                         <span className="material-symbols-outlined">chevron_right</span>
                     </button>

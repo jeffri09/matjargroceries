@@ -176,7 +176,7 @@ export default function HomePage() {
           </section>
 
           {/* Trust Badges */}
-          <section className={styles.trustSection} aria-label="Keunggulan layanan">
+          <section className={styles.trustSection} aria-label="Service highlights">
             <div className={styles.trustItem}>
               <div className={styles.trustIcon}>
                 <span className="material-symbols-outlined" style={{ fontSize: '28px' }}>
@@ -198,8 +198,8 @@ export default function HomePage() {
                 </span>
               </div>
               <div>
-                <h3 className={styles.trustTitle}>Jaminan Kualitas</h3>
-                <p className={styles.trustDesc}>Product segar dan berkualitas tinggi.</p>
+                <h3 className={styles.trustTitle}>Quality Guarantee</h3>
+                <p className={styles.trustDesc}>Fresh, high-quality products.</p>
               </div>
             </div>
 
@@ -212,8 +212,8 @@ export default function HomePage() {
                 </span>
               </div>
               <div>
-                <h3 className={styles.trustTitle}>Layanan 24/7</h3>
-                <p className={styles.trustDesc}>Bantuan pelanggan siap melayani you.</p>
+                <h3 className={styles.trustTitle}>24/7 Support</h3>
+                <p className={styles.trustDesc}>Our customer support is ready to help you.</p>
               </div>
             </div>
           </section>

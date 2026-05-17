@@ -166,7 +166,7 @@ export default async function ProductDetailPage({
                             </span>
                             <span className={styles.badgeStock}>
                                 <span className="material-symbols-outlined" style={{ fontSize: '16px' }}>check_circle</span>
-                                Stok Tersedia
+                                Stok Available
                             </span>
                         </div>
 
@@ -192,9 +192,9 @@ export default async function ProductDetailPage({
                             <div className={styles.infoCard}>
                                 <div className={styles.infoCardLeft}>
                                     <span className="material-symbols-outlined" style={{ color: 'var(--color-primary)' }}>local_shipping</span>
-                                    <span className={styles.infoCardLabel}>Pengiriman Instan Tersedia</span>
+                                    <span className={styles.infoCardLabel}>Same-Day Delivery Available</span>
                                 </div>
-                                <span className={styles.infoCardValue}>Tiba dalam 2 jam</span>
+                                <span className={styles.infoCardValue}>Arrives in 2 hours</span>
                             </div>
                             <div className={styles.infoCard}>
                                 <div className={styles.infoCardLeft}>
@@ -210,12 +210,12 @@ export default async function ProductDetailPage({
                 {/* Related Products */}
                 <section className={styles.relatedSection} aria-label="Product terkait">
                     <div className={styles.relatedHeader}>
-                        <h2 className={styles.relatedTitle}>Product Terkait</h2>
+                        <h2 className={styles.relatedTitle}>Related Products</h2>
                         <div className={styles.relatedNav}>
-                            <button className={styles.relatedNavBtn} aria-label="Sebelumnya">
+                            <button className={styles.relatedNavBtn} aria-label="Previous">
                                 <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>chevron_left</span>
                             </button>
-                            <button className={styles.relatedNavBtn} aria-label="Selanjutnya">
+                            <button className={styles.relatedNavBtn} aria-label="Next">
                                 <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>chevron_right</span>
                             </button>
                         </div>

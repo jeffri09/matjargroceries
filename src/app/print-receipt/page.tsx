@@ -123,7 +123,7 @@ export default function PrintReceiptPage() {
                             <span className="material-symbols-outlined" style={{ fontSize: '48px', color: 'var(--text-muted)' }}>
                                 inbox
                             </span>
-                            <p>Tidak ada orders ditemukan.</p>
+                            <p>No orders found.</p>
                         </div>
                     ) : (
                         <>

@@ -255,7 +255,7 @@ export default function CheckoutPage() {
                 <div className={styles.stepLine} />
                 <div className={styles.step}>
                     <span className={styles.stepNumber}>3</span>
-                    <span className={styles.stepLabel}>Selesai</span>
+                    <span className={styles.stepLabel}>Done</span>
                 </div>
             </nav>
 
@@ -277,7 +277,7 @@ export default function CheckoutPage() {
                                     type="text"
                                     id="nama"
                                     className={styles.formInput}
-                                    placeholder="Masukkan nama lengkap"
+                                    placeholder="Enter full name"
                                     value={nama}
                                     onChange={(e) => setName(e.target.value)}
                                     required
@@ -300,11 +300,11 @@ export default function CheckoutPage() {
                         </div>
                     </div>
 
-                    {/* Address Pengiriman */}
+                    {/* Delivery Address */}
                     <div className={styles.formCard} style={{ marginBottom: 'var(--space-lg)' }}>
                         <h2 className={styles.formTitle}>
                             <span className="material-symbols-outlined" style={{ color: 'var(--color-primary)' }}>location_on</span>
-                            Address Pengiriman
+                            Delivery Address
                         </h2>
                         {store && (
                             <div style={{
@@ -320,12 +320,12 @@ export default function CheckoutPage() {
                         )}
                         <div className={styles.formGroup}>
                             <label htmlFor="alamat" className={styles.formLabel}>
-                                Address Lengkap <span className={styles.formRequired}>*</span>
+                                Full Address <span className={styles.formRequired}>*</span>
                             </label>
                             <textarea
                                 id="alamat"
                                 className={styles.formTextarea}
-                                placeholder="Jl. Contoh No. 123, RT 01/RW 02, Kel. Contoh, Kec. Contoh"
+                                placeholder="123 Main Street, Apt 4B, Brooklyn, NY 11201"
                                 rows={3}
                                 value={alamat}
                                 onChange={(e) => setAddress(e.target.value)}
@@ -452,7 +452,7 @@ export default function CheckoutPage() {
                                 ) : (
                                     <div className={styles.qrisPlaceholder}>
                                         <span className="material-symbols-outlined" style={{ fontSize: '48px', color: 'var(--text-muted)' }}>qr_code_2</span>
-                                        <p>QR Code akan dikirim via WhatsApp setelah checkout</p>
+                                        <p>QR Code will be sent via WhatsApp after checkout</p>
                                     </div>
                                 )}
                             </div>
@@ -472,12 +472,12 @@ export default function CheckoutPage() {
                     <div className={styles.formCard}>
                         <h2 className={styles.formTitle}>
                             <span className="material-symbols-outlined" style={{ color: 'var(--color-primary)' }}>edit_note</span>
-                            Note Addan
+                            Additional Notes
                         </h2>
                         <div className={styles.formGroup}>
                             <textarea
                                 className={styles.formTextarea}
-                                placeholder="Note untuk driver atau penjual (opsional)"
+                                placeholder="Notes for the driver or seller (optional)"
                                 rows={2}
                                 value={catatan}
                                 onChange={(e) => setNote(e.target.value)}
@@ -564,7 +564,7 @@ export default function CheckoutPage() {
                         </button>
                         <p className={styles.secureNote}>
                             <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>lock</span>
-                            Transaksi aman & terenkripsi
+                            Secure & encrypted transaction
                         </p>
                     </div>
                 </aside>

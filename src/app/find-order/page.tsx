@@ -94,7 +94,7 @@ export default function SearchOrderPage() {
                 Find Orders
             </h1>
             <p className={styles.subtitle}>
-                Masukkan nomor HP yang digunakan saat checkout untuk menemukan ordersmu.
+                Enter the phone number used at checkout to find your orders.
             </p>
 
             {/* Search Form */}
@@ -104,7 +104,7 @@ export default function SearchOrderPage() {
                     <input
                         type="tel"
                         className={styles.searchInput}
-                        placeholder="Contoh: 081234567890"
+                        placeholder="e.g. 5551234567"
                         value={telepon}
                         onChange={e => setTelepon(e.target.value)}
                         onKeyDown={e => e.key === 'Enter' && handleSearch()}

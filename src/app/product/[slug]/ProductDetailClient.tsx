@@ -93,7 +93,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
             {/* Notes */}
             <div className={styles.notesSection}>
                 <label htmlFor="product-notes" className={styles.notesLabel}>
-                    Note (Opsional)
+                    Notes (Optional)
                 </label>
                 <textarea
                     id="product-notes"
