@@ -1,0 +1,38 @@
+[
+  {
+    "kode": "SAVE10",
+    "tipe": "persen",
+    "nilai": 10,
+    "min_order": 30.00,
+    "max_diskon": 8.00,
+    "batas_pakai": 100,
+    "sudah_dipakai": 0,
+    "berlaku_dari": "2025-12-31T17:00:00.000Z",
+    "berlaku_sampai": "2026-12-30T17:00:00.000Z",
+    "aktif": true
+  },
+  {
+    "kode": "DEAL5",
+    "tipe": "nominal",
+    "nilai": 5.00,
+    "min_order": 25.00,
+    "max_diskon": 0,
+    "batas_pakai": 50,
+    "sudah_dipakai": 0,
+    "berlaku_dari": "2025-12-31T17:00:00.000Z",
+    "berlaku_sampai": "2026-12-30T17:00:00.000Z",
+    "aktif": true
+  },
+  {
+    "kode": "FREESHIP",
+    "tipe": "gratis_ongkir",
+    "nilai": 0,
+    "min_order": 35.00,
+    "max_diskon": 0,
+    "batas_pakai": 200,
+    "sudah_dipakai": 0,
+    "berlaku_dari": "2025-12-31T17:00:00.000Z",
+    "berlaku_sampai": "2026-12-30T17:00:00.000Z",
+    "aktif": true
+  }
+]

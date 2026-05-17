@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "nama": "Fresh Produce",
+    "slug": "fresh-produce",
+    "icon_url": "eco",
+    "urutan": 1,
+    "aktif": true
+  },
+  {
+    "id": "2",
+    "nama": "Fruits",
+    "slug": "fruits",
+    "icon_url": "nutrition",
+    "urutan": 2,
+    "aktif": true
+  },
+  {
+    "id": "3",
+    "nama": "Halal Meat & Poultry",
+    "slug": "halal-meat-poultry",
+    "icon_url": "set_meal",
+    "urutan": 3,
+    "aktif": true
+  },
+  {
+    "id": "4",
+    "nama": "Dairy & Eggs",
+    "slug": "dairy-eggs",
+    "icon_url": "egg",
+    "urutan": 4,
+    "aktif": true
+  },
+  {
+    "id": "5",
+    "nama": "Pantry & Grains",
+    "slug": "pantry-grains",
+    "icon_url": "grain",
+    "urutan": 5,
+    "aktif": true
+  },
+  {
+    "id": "6",
+    "nama": "Spices & Herbs",
+    "slug": "spices-herbs",
+    "icon_url": "spa",
+    "urutan": 6,
+    "aktif": true
+  },
+  {
+    "id": "7",
+    "nama": "Beverages",
+    "slug": "beverages",
+    "icon_url": "local_drink",
+    "urutan": 7,
+    "aktif": true
+  },
+  {
+    "id": "8",
+    "nama": "Bakery & Snacks",
+    "slug": "bakery-snacks",
+    "icon_url": "bakery_dining",
+    "urutan": 8,
+    "aktif": true
+  }
+]

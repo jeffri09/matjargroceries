@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "nama": "Matjar Groceries",
+    "alamat": "123 Market Street, Brooklyn, NY 11201, USA",
+    "lat": 40.6943,
+    "lng": -73.9903,
+    "telepon": "+12125550123",
+    "whatsapp": "12125550123",
+    "jam_buka": "07:00 - 22:00",
+    "tarif_per_km": 0.5,
+    "min_order": 15.00,
+    "max_jarak_km": 25,
+    "gratis_ongkir_diatas": 50.00,
+    "logo_url": "",
+    "banner_url": "",
+    "aktif": true
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "tipe": "transfer",
+    "provider": "Chase Bank",
+    "no_rekening": "1234567890",
+    "atas_nama": "Matjar Groceries LLC",
+    "logo_url": "",
+    "instruksi": "Transfer to Chase Bank 1234567890 — Matjar Groceries LLC. Routing: 021000021",
+    "qris_url": "",
+    "aktif": true
+  },
+  {
+    "tipe": "transfer",
+    "provider": "Bank of America",
+    "no_rekening": "0987654321",
+    "atas_nama": "Matjar Groceries LLC",
+    "logo_url": "",
+    "instruksi": "Transfer to Bank of America 0987654321 — Matjar Groceries LLC. Routing: 026009593",
+    "qris_url": "",
+    "aktif": true
+  },
+  {
+    "tipe": "transfer",
+    "provider": "Wells Fargo",
+    "no_rekening": "1122334455",
+    "atas_nama": "Matjar Groceries LLC",
+    "logo_url": "",
+    "instruksi": "Transfer to Wells Fargo 1122334455 — Matjar Groceries LLC. Routing: 121000248",
+    "qris_url": "",
+    "aktif": true
+  },
+  {
+    "tipe": "qris",
+    "provider": "Zelle / Venmo",
+    "no_rekening": "",
+    "atas_nama": "Matjar Groceries LLC",
+    "logo_url": "",
+    "instruksi": "Scan QR Code sent via WhatsApp to pay with Zelle or Venmo",
+    "qris_url": "",
+    "aktif": true
+  },
+  {
+    "tipe": "cod",
+    "provider": "COD",
+    "no_rekening": "",
+    "atas_nama": "",
+    "logo_url": "",
+    "instruksi": "Pay cash on delivery — please prepare exact change",
+    "qris_url": "",
+    "aktif": true
+  }
+]
